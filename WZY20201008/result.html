@@ -10974,6 +10974,7 @@
         '只要你回头，就能看到我，你不孤单，我一直在。',
     ];
     let allLinks = document.getElementsByTagName("a");
+	document.getElementById("music").play();
     for (let i = 0; i < allLinks.length; i++) {
         allLinks[i].href = "javascript:;"
         allLinks[i].target = "_self";
